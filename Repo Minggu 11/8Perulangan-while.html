@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perulangan while - Arj</title>
+</head>
+<body>
+    <script>
+      var ulangi = confirm("R u want to Loop?");
+        var counter = 0;
+        
+        while(ulangi){
+            var jawab = confirm("R u want to Loop?")
+            counter++;
+            if(jawab == false){
+                ulangi = false;
+            }
+        }
+        document.write("The Looping has been done as much as "+ counter +" times");  
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Perulangan Nested 2 - Arj</title>
+	</head>
+	<body>
+	<script>
+		var ulangi = confirm("R u want to loop?");
+		var counter = 0;
+		while (ulangi) {
+			counter++;
+			var bintang = "*".repeat(counter) + "<br>";
+			document.write(counter + ": " + bintang);
+			ulangi = confirm("R u want to loop?");
+		}
+	</script>
+	</body>
+</html>

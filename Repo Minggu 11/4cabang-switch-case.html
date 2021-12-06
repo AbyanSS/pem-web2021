@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Percabangan switch/case - Arj</title>
+    </head>
+
+    <body>
+        <script>
+            var jawab = prompt("Ur Lucky! Choose ur prize by entering number 1 to 5");
+            var hadiah = "";
+
+            switch(jawab){
+                case "1":
+                    hadiah = "Indomie";
+                    break;
+                case "2":
+                    hadiah = "Goreng";
+                    break;
+                case "3":
+                    hadiah = "Rasa";
+                    break;
+                case "4":
+                    hadiah = "Kari";
+                    break;
+                case "5":
+                    hadiah = "Ayam";
+                    break;
+                default:
+                    document.write("<p>Opps! Wrong choose</p>");
+            }
+            if(hadiah === ""){
+                document.write("<p>U failed to get the prize</p>");
+            } else {
+                document.write("<h2>Congrats u got " + hadiah + "</h2>");
+            }
+        </script>
+    </body>
+</html>
